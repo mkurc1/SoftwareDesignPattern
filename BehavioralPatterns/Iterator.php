@@ -2,7 +2,7 @@
 
 class MenuItemsIterator implements Iterator
 {
-	private $menuItems = [];
+	private $menuItems;
 	private $index = 0;	
 
 	public function __construct(MenuItemsCollection $menuItems)
