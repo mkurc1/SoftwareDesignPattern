@@ -5,7 +5,7 @@ interface Image
 	public function render();
 }
 
-class RealImage
+class RealImage implements Image
 {
 	private $filename;
 
